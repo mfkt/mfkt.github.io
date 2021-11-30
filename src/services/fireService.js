@@ -4,7 +4,6 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 // import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-
   apiKey: "AIzaSyDzUi8rcfJDkONoJWXiJCXNy0cRb52wIaI",
   authDomain: "portfolio-61a08.firebaseapp.com",
   projectId: "portfolio-61a08",

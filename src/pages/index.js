@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react"
 import { getLanguages, getProgrammings, getTechnologies } from '../services/fireService'
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
+import { graphql } from 'gatsby';
+import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
+import Header from "../components/Header";
 
 // markup
 const IndexPage = () => {
+
+  const { t } = useTranslation()
+
   const [languages, setLanguages] = useState(null)
   const [programming, setProgramming] = useState(null)
   const [technologies, setTechnologies] = useState(null)
@@ -43,11 +42,25 @@ const IndexPage = () => {
 
   return (
     <>
-    <div>{languages ? "languages" : "Loading..."}</div>
-    <div>{programming ? "programming" : "Loading..."}</div>
-    <div>{technologies ? "technologies" : "Loading..."}</div>
+    <Header></Header>
+    <p><Trans>Welcome to my Gatsby site!</Trans></p>
+    {t(technologies ? 'technologies' : 'loading')}
     </>
   )
 }
 
 export default IndexPage
+
+export const query = graphql`
+  query($language: String!) {
+    locales: allLocale(filter: {language: {eq: $language}}) {
+      edges {
+        node {
+          ns
+          data
+          language
+        }
+      }
+    }
+  }
+`;
