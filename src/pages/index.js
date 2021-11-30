@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { getLanguages, getProgrammings, getTechnologies } from '../services/fireService'
 import { graphql } from 'gatsby';
 import { Trans, useTranslation } from 'gatsby-plugin-react-i18next';
-import Header from "../components/Header";
+import Navigation from "../components/navigation";
 
 // markup
 const IndexPage = () => {
@@ -42,7 +42,7 @@ const IndexPage = () => {
 
   return (
     <>
-    <Header></Header>
+    <Navigation></Navigation>
     <p><Trans>Welcome to my Gatsby site!</Trans></p>
     {t(technologies ? 'technologies' : 'loading')}
     </>
@@ -63,4 +63,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`
