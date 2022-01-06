@@ -1,5 +1,4 @@
 import React from 'react';
-import {graphql} from 'gatsby';
 import {Link, useI18next} from 'gatsby-plugin-react-i18next';
 
 const Header = ({title}) => {
