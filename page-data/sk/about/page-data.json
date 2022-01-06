@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-about-js",
+    "path": "/sk/about/",
+    "result": {"pageContext":{"language":"sk","i18n":{"language":"sk","languages":["en","sk"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/about/","path":"sk/about/"}}},
+    "staticQueryHashes": []}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmkft=self.webpackChunkmkft||[]).push([[682],{5518:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var u=n(7294),l=n(9261);function r(){return u.createElement(u.Fragment,null,u.createElement(l.Z,null),u.createElement("div",null,"About page"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-6f6ea11876faeb7d5eac.js.map

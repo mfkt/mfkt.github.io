@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/sk/",
+    "result": {"data":{"locales":{"edges":[{"node":{"ns":"translation","data":"{\"Welcome to my Gatsby site!\":\"Vitajte na gatsby stranke!\",\"technologies\":\"technologie\"}","language":"sk"}}]}},"pageContext":{"language":"sk","i18n":{"language":"sk","languages":["en","sk"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/","path":"sk/"}}},
+    "staticQueryHashes": []}
