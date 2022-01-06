@@ -21,6 +21,13 @@ module.exports = {
       __key: "images",
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "locale",
+        path: `${__dirname}/locales`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-gtag`,
       options: {
         // your google analytics tracking id
@@ -31,5 +38,32 @@ module.exports = {
         anonymize: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`,
+        languages: [`en`, `sk`],
+        defaultLanguage: `en`,
+        siteUrl: `http://localhost:8000/`,
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false
+          },
+          keySeparator: false,
+          nsSeparator: false
+        },
+        pages: [
+          {
+            matchPath: '/:lang?/blog/:uid',
+            getLanguageFromPath: true,
+            excludeLanguages: ['es']
+          },
+          {
+            matchPath: '/preview',
+            languages: ['en']
+          }
+        ]
+      }
+    }
   ],
 };
