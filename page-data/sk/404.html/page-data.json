@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-404-js",
+    "componentChunkName": "component---src-pages-404-jsx",
     "path": "/sk/404.html",
     "result": {"pageContext":{"language":"sk","i18n":{"language":"sk","languages":["en","sk"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":true,"originalPath":"/404.html","path":"sk/404.html"}}},
     "staticQueryHashes": []}

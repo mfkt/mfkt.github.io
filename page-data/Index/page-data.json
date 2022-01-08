@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-jsx",
+    "path": "/Index/",
+    "result": {"data":{"locales":{"edges":[{"node":{"ns":"translation","data":"{\"Welcome to my Gatsby site!\":\"Welcome to my Gatsby site!\",\"technologies\":\"technologies\"}","language":"en"}}]}},"pageContext":{"language":"en","i18n":{"language":"en","languages":["en","sk"],"defaultLanguage":"en","generateDefaultLanguagePage":false,"routed":false,"originalPath":"/Index/","path":"/Index/"}}},
+    "staticQueryHashes": []}

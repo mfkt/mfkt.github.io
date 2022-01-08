@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmkft=self.webpackChunkmkft||[]).push([[211],{8497:function(e,t,n){n.r(t);var l=n(7294),u=n(185);t.default=function(){return l.createElement(l.Fragment,null,l.createElement(u.Z,null),l.createElement("div",null,"Portfolio page"))}}}]);
+//# sourceMappingURL=component---src-pages-portfolio-jsx-78e79cacc4ab60d566ef.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmkft=self.webpackChunkmkft||[]).push([[25],{8994:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var l=n(7294),u=n(9261);function r(){return l.createElement(l.Fragment,null,l.createElement(u.Z,null),l.createElement("div",null,"Portfolio page"))}}}]);
-//# sourceMappingURL=component---src-pages-portfolio-js-8891fd73249ed4167836.js.map
