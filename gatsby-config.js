@@ -1,6 +1,6 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -47,23 +47,13 @@ module.exports = {
         siteUrl: `http://localhost:8000/`,
         i18nextOptions: {
           interpolation: {
-            escapeValue: false
+            escapeValue: false,
           },
           keySeparator: false,
-          nsSeparator: false
+          nsSeparator: false,
         },
-        pages: [
-          {
-            matchPath: '/:lang?/blog/:uid',
-            getLanguageFromPath: true,
-            excludeLanguages: ['es']
-          },
-          {
-            matchPath: '/preview',
-            languages: ['en']
-          }
-        ]
-      }
-    }
+        pages: [],
+      },
+    },
   ],
 };
